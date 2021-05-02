@@ -1,0 +1,14 @@
+.wrapper{
+  display: flex;
+  padding: 10px;
+  border: 1px solid black;
+  column-gap: 10px;
+  margin-top: 10px;
+
+}
+.code{
+  width: 100%;
+  max-width: 11400px;
+  overflow-x: auto;
+  border: none;
+}

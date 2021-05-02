@@ -1,0 +1,23 @@
+.list{
+  width: 80%;
+  margin: 0 auto;
+  max-height: 700px;
+  overflow-y: auto;
+
+}
+.wrapper{
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 8px;
+    background-color: #1262db;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #dedede;
+    box-shadow: inset 1px 1px 10px #f3faf7;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #484848;
+  }
+}
