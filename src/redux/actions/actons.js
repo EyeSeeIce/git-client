@@ -14,10 +14,10 @@ const getData = (url) => {
         xhr.open('GET', url, true);
         xhr.send();
         xhr.onreadystatechange = function() { // (3)
-            if (xhr.readyState != 4) return;
+            if (xhr.readyState != 4) reject()
 
             if (xhr.status != 200) {
-                alert(xhr.status + ': ' + xhr.statusText);
+                reject()
             } else {
                 resolve(xhr)
             }
