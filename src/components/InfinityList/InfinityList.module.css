@@ -1,0 +1,11 @@
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 20px;
+  padding-top: 50px;
+}
+
+/*# sourceMappingURL=InfinityList.module.css.map */
